@@ -14,11 +14,11 @@ export class GridComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   static itemChange(item: any, itemComponent: any) {
-    console.info('itemChanged', item, itemComponent);
+    //console.info('itemChanged', item, itemComponent);
   }
 
   static itemResize(item: any, itemComponent: any) {
-    console.info('itemResized', item, itemComponent);
+    //console.info('itemResized', item, itemComponent);
   }
 
   removeItem(item: any) {
@@ -46,7 +46,6 @@ export class GridComponent implements OnInit {
     if (typeChart == 1) {
       content = {
         legend: {
-          data: ['bar', 'bar2'],
           align: 'left',
         },
         tooltip: {},
@@ -79,7 +78,6 @@ export class GridComponent implements OnInit {
     } else if (typeChart == 2) {
       content = {
         legend: {
-          data: ['bar', 'bar2'],
           align: 'left',
         },
         tooltip: {},
@@ -226,7 +224,7 @@ export class GridComponent implements OnInit {
       content = this.buildContent(x, y, 1);
 
       this.dashboard.push({
-        cols: 2, rows: 1, y: 0, x: 2, content: content, dragEnabled: true,
+        cols: 2, rows: 1, y: 0, x: 4, content: content, dragEnabled: true,
         resizeEnabled: true
       });
     });
@@ -243,7 +241,7 @@ export class GridComponent implements OnInit {
       content = this.buildContent(x, y, 2);
 
       this.dashboard.push({
-        cols: 2, rows: 1, y: 0, x: 2, content: content, dragEnabled: true,
+        cols: 2, rows: 1, y: 1, x: 0, content: content, dragEnabled: true,
         resizeEnabled: true
       });
     });
@@ -260,7 +258,7 @@ export class GridComponent implements OnInit {
       content = this.buildContent(x, y, 1);
 
       this.dashboard.push({
-        cols: 2, rows: 1, y: 0, x: 2, content: content, dragEnabled: true,
+        cols: 2, rows: 1, y: 1, x: 2, content: content, dragEnabled: true,
         resizeEnabled: true
       });
     });
@@ -277,7 +275,7 @@ export class GridComponent implements OnInit {
       content = this.buildContent(x, y, 3);
 
       this.dashboard.push({
-        cols: 2, rows: 1, y: 0, x: 2, content: content, dragEnabled: true,
+        cols: 2, rows: 1, y: 1, x: 4, content: content, dragEnabled: true,
         resizeEnabled: true
       });
     });
