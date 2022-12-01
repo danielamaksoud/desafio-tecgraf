@@ -7,3 +7,8 @@
 - Executar a API com o comando ```node index.js``` dentro da pasta desafio-tecgraf/api
 - Executar o projeto Angular com o comando ```ng serve``` dentro da pasta desafio-tecgraf
 - Acessar o projeto com a url localhost:4200
+
+## Diário de Implementação:
+
+- https://danielamaksoud.com.br/blog/criando-aplicacao-com-angular/
+- Senha de acesso: desafio-tecgraf
