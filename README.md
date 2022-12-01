@@ -11,4 +11,4 @@
 ## Diário de Implementação:
 
 - https://danielamaksoud.com.br/blog/criando-aplicacao-com-angular/
-- Senha de acesso: desafio-tecgraf
+- Senha de acesso: desafiotecgraf
