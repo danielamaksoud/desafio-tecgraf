@@ -1,0 +1,10 @@
+<app-chart [options]="content"></app-chart>
+<div style="top: 4px; margin-left:4px; z-index: 1000; position: absolute; display: inline-block;">
+    <button md-icon-button md-raised-button class="remove-button" (click)="emitDelete()" mdTooltip="Remove">
+        <i class="fa-regular fa-trash-can"></i>
+    </button>
+    
+    <button md-icon-button md-raised-button class="drag-handler">
+        <i class="fa-solid fa-up-down-left-right"></i>
+    </button>
+</div>

@@ -1,0 +1,8 @@
+<!-- Grid-->
+<div class="grid">
+    <gridster [options]="options">
+        <gridster-item [item]="item" *ngFor="let item of dashboard">
+            <app-grid-item [content]="item['content']" (onDelete)="removeItem(item)"></app-grid-item>
+        </gridster-item>
+    </gridster>
+</div>
